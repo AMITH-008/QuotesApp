@@ -2,4 +2,6 @@
     <string name="app_name">QuotesApp</string>
     <string name="quotes">QUOTES</string>
     <string name="share">SHARE</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="next">NEXT</string>
 </resources>

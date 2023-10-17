@@ -14,10 +14,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:fontFamily="@font/inknut_antiqua_medium"
         android:text="@string/quotes"
+        android:textAlignment="center"
         android:textColor="#fff"
         android:textSize="28sp"
-        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -44,16 +45,19 @@
             android:scaleX="-1"
             android:scaleY="-1"
             />
+
         <TextView
             android:id="@+id/quoteText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/kotta_one"
             android:paddingStart="10dp"
             android:text="Genius is one percent inspiration and ninety-nine percent perspiration."
-            android:textSize="24sp"
-            android:textColor="#454545"/>
+            android:textColor="#454545"
+            android:textSize="24sp" />
 
         <TextView
+            android:id="@+id/quoteAuthor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Bruce Wayne"
@@ -71,24 +75,24 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/tv_previous"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:drawableTint="#80FFFFFF"
             android:layout_weight="1"
-            android:text="PREVIOUS"
+            android:text="@string/previous"
             android:textColor="#80FFFFFF"
-            android:onClick="onPrevious"
             android:textSize="18sp"
             app:drawableStartCompat="@drawable/ic_left_24" />
 
         <TextView
+            android:id="@+id/tv_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:drawableTint="#80FFFFFF"
             android:layout_weight="1"
-            android:text="NEXT"
+            android:text="@string/next"
             android:textColor="#80FFFFFF"
-            android:onClick="onNext"
             android:textSize="18sp"
             android:textAlignment="textEnd"
             app:drawableEndCompat="@drawable/ic_right_24" />
