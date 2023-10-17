@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuotesApp</string>
+    <string name="quotes">QUOTES</string>
+    <string name="share">SHARE</string>
+</resources>
